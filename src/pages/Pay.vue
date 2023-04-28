@@ -139,7 +139,8 @@ const onValidate = async () => await validateToken();
         text="Validar Token"
         type="button"
         color="orange"
-        size="md mb-4"
+        size="md"
+        class="mb-4"
         :disabled="loading"
         @click="() => !loading && onValidate()"
       />

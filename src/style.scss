@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_orange {
+  @apply bg-orange-100 hover:bg-orange-50 text-white-100;
+}
+
+.btn_yellow {
+  @apply bg-yellow-100 hover:bg-yellow-50 text-white-100 hover:text-white-300;
+}
+
+.btn_blue {
+  @apply bg-blue-100 hover:bg-blue-50 text-white-100;
+}
+
+.btn_sky {
+  @apply bg-sky-100 hover:bg-sky-50 text-white-100 hover:text-white-300;
+}
+
+.btn_purple {
+  @apply bg-purple-100 hover:bg-purple-50 text-white-100;
+}
+
+.btn_disabled {
+  @apply bg-white-400 hover:bg-white-400 text-white-100;
+}
+
+.btn_sm {
+  @apply text-xs font-semibold py-1 px-4;
+}
+
+.btn_md {
+  @apply text-sm font-semibold py-2 px-8;
+}
+
+.btn_lg {
+  @apply text-base font-semibold py-3 px-12;
+}
+
+.btn_xl {
+  @apply text-lg font-semibold py-4 px-16;
+}
